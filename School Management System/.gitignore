@@ -1,0 +1,25 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio cache
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+*.dll
+*.exe
+
+# Logs
+*.log
+
+# Others
+*.vsidx
+*.vscode/
