@@ -69,14 +69,14 @@ namespace School_Management_System.ToolsControls
 
        
 
-        [Category("RJ Code Advance - Colors")]
+        
         public Color PressedBackColor
         {
             get => pressedBackColor;
             set { pressedBackColor = value; Invalidate(); }
         }
 
-        [Category("RJ Code Advance - Colors")]
+        
         public Color DisabledBackColor
         {
             get => disabledBackColor;

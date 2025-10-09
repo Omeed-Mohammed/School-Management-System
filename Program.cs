@@ -1,4 +1,5 @@
-﻿using School_Management_System.Register_Login;
+﻿using School_Management_System.Main;
+using School_Management_System.Register_Login;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,8 +18,9 @@ namespace School_Management_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-           // Application.Run(new frmLogin());
+            //Application.Run(new FormTest());
+            Application.Run(new frmLogin());
+            //Application.Run(new frmMain());
         }
     }
 }

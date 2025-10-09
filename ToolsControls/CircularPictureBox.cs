@@ -13,6 +13,9 @@ namespace School_Management_System.ToolsControls
 {
     class CircularPictureBox : PictureBox
     {
+        private const string CategoryName = "My Custom Settings";
+        
+
         //Fields
         private int borderSize = 2;
         private Color borderColor = Color.RoyalBlue;
@@ -30,7 +33,7 @@ namespace School_Management_System.ToolsControls
         }
 
         //Properties
-        [Category("RJ Code Advance")]
+        [Category(CategoryName)]
         public int BorderSize
         {
             get { return borderSize; }
@@ -41,7 +44,7 @@ namespace School_Management_System.ToolsControls
             }
         }
 
-        [Category("RJ Code Advance")]
+        [Category(CategoryName)]
         public Color BorderColor
         {
             get { return borderColor; }
@@ -52,7 +55,7 @@ namespace School_Management_System.ToolsControls
             }
         }
 
-        [Category("RJ Code Advance")]
+        [Category(CategoryName)]
         public Color BorderColor2
         {
             get { return borderColor2; }
@@ -63,7 +66,7 @@ namespace School_Management_System.ToolsControls
             }
         }
 
-        [Category("RJ Code Advance")]
+        [Category(CategoryName)]
         public DashStyle BorderLineStyle
         {
             get { return borderLineStyle; }
@@ -74,7 +77,7 @@ namespace School_Management_System.ToolsControls
             }
         }
 
-        [Category("RJ Code Advance")]
+        [Category(CategoryName)]
         public DashCap BorderCapStyle
         {
             get { return borderCapStyle; }
@@ -84,7 +87,7 @@ namespace School_Management_System.ToolsControls
                 this.Invalidate();
             }
         }
-        [Category("RJ Code Advance")]
+        [Category(CategoryName)]
         public float GradientAngle
         {
             get { return gradientAngle; }
